@@ -1,0 +1,136 @@
+/* //适配iphone 5 //1rem = 14px*/
+@media screen and (max-width: 320px) {
+    html {
+      font-size: 14px;
+    }
+  }
+  /* //适配宽度在321px - 413px 之间 //1rem = 16px*/
+  @media screen and (min-width: 321px) and (max-width: 413px) {
+    html {
+      font-size: 16px;
+    }
+  }
+  /* //适配宽度在414px - 639px 之间 //1rem = 17px*/
+  @media screen and (min-width: 414px) and (max-width: 639px) {
+    html {
+      font-size: 17px;
+    }
+  }
+  /* //适配宽度大于640px //1rem = 18px*/
+  @media screen and (min-width: 640px) {
+    html {
+      font-size: 18px;
+    }
+  }
+
+
+.main{width:100%;}
+.main .container.tab-nav {width: 100%;padding-right: 0px;padding-left: 0px;margin-right: auto;margin-left: auto;}
+.main .container.tab-nav{position: absolute;bottom: 0px;}
+
+
+/*公共头部部分 -- 标题内容部分需要根据浏览器宽度计算显示长度*/
+.header {height: 44px; background: #0693fb;text-align: center; }
+.header .left-part{width: 35px;height: 44px; line-height: 44px; float: left;}
+.header .title-part{height: 44px; line-height: 44px; float: left;color: #fff;font-weight: 600;font-size: 16px;}
+.header .right-part{width: 35px;height: 44px;line-height: 44px;float: right;}
+.mu-tab-wrapper{font-size:12px;padding: 0px;}
+/* .mu-tab {min-width: 0;} */
+
+
+.techno-orders {border-radius: 10px;  padding: 10px;  background: #fff;  /* height: 100px; */  overflow: hidden;  line-height: 1.6;  margin: 10px 8px 6px 8px;}
+.techno-orders .card img {width: 5px;height: 15px;vertical-align: middle;/* margin-right: 5px; */margin: -3px 5px 2px 0;}
+.techno-orders .card strong {font-size: 1rem; color: #9d9fa9;}
+.techno-orders .card label {float: right;  font-size: 0.8rem;padding: 1px 8px 1px 8px;color: #737686;  border: 1px solid #a0b7da;  border-radius: 10px;}
+
+
+/*EChart图形处理部分样式*/
+
+.techno-orders .echarts {padding: 10px;}
+
+.techno-orders .echarts strong {
+  font-size: 0.9rem;
+}
+
+.techno-orders .echarts label {
+  float: right;
+  font-size: 12px;
+  padding: 1px 8px 1px 8px;
+  color: #737686;
+  border: 1px solid #a0b7da;
+  border-radius: 10px;
+}
+.techno-orders p {
+  color: #003f7f;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.techno-orders p {
+  height: 28px;
+}
+
+.techno-orders .piecharts {
+  background: #ffffff;
+
+}
+
+.techno-orders .piecharts ul {
+  overflow: hidden;
+  height: 100%;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.techno-orders .piecharts ul li {
+  font-size: 0.9rem;
+  float: left;
+  height: 35px;
+  line-height: 35px;
+  text-align: left;
+  margin: 0 2px;
+  width: 100%;
+  padding: 0 0 0 5px;
+}
+
+.techno-orders .piecharts ul li div {
+  float: left;
+}
+
+.techno-orders .piecharts ul li .col3 label {
+  color: #737686;
+  border: 0;
+  vertical-align: center;
+}
+
+.techno-orders .piecharts ul li .header {
+  float: left;
+}
+
+.distribution .piecharts ul li .col1 {
+  width: 45%;
+  padding: 0 0 0 5px;
+}
+
+.techno-orders .piecharts ul li .col2 {
+  width: 30%;
+}
+
+.techno-orders .piecharts ul li .col3 {
+  width: 20%;
+}
+
+.techno-orders .piecharts ul .active {
+  background: #87cdff;
+}
+
+.techno-orders .piecharts .circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  margin: 12px 4px 0 0;
+}
